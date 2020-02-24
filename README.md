@@ -47,5 +47,5 @@ $ vlib work
 $ vcom *.vhd
 - Simulate your design.
 
-$ vsim work.gcd_toplevel_tb
+$ vsim work.toplevel
 
