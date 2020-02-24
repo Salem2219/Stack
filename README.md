@@ -10,7 +10,7 @@ The program takes as inputs :
 - clk, rst.
 - en (single bit) : The functions run if en = '1' else they do not run.
 - I(3 bits) : I specifies which function will run.
-I    Function
+
 000  stack_init
 001  empty
 010  push
