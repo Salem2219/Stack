@@ -1,0 +1,61 @@
+# vsim work.toplevel 
+# Start time: 13:04:37 on Feb 24,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.toplevel(rtl)
+# Loading work.dp(rtl)
+# Loading work.reg5(rtl)
+# Loading work.mux4_1(first)
+# Loading work.reg1(rtl)
+# Loading work.comp5(rtl)
+# Loading work.incrementer(rtl)
+# Loading work.ram_16x8bit(rtl)
+# Loading work.decrementer(rtl)
+# Loading work.reg8(rtl)
+# Loading work.mux2_1(first)
+# Loading work.ctrl(rtl)
+add wave -position end  sim:/toplevel/clk
+add wave -position end  sim:/toplevel/rst
+add wave -position end  sim:/toplevel/en
+add wave -position end  sim:/toplevel/I
+add wave -position end  sim:/toplevel/din
+add wave -position end  sim:/toplevel/empty
+add wave -position end  sim:/toplevel/top
+add wave -position end  sim:/toplevel/datapath/t
+do {C:/Users/Abdullah Salem/Documents/Digital Design/projects/stack/forces.do}
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /toplevel/datapath/t_sub
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /toplevel/datapath/t_sub
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /toplevel/datapath/data_ram
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /toplevel/datapath/data_ram
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /toplevel/datapath/t_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /toplevel/datapath/t_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /toplevel/datapath/data_ram
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 3  Instance: /toplevel/datapath/data_ram
+force -freeze sim:/toplevel/en 1 0
+run
+force -freeze sim:/toplevel/I 001 0
+run
+force -freeze sim:/toplevel/I 010 0
+run
+run
+force -freeze sim:/toplevel/din 00001100 0
+run
+force -freeze sim:/toplevel/I 100 0
+run
+force -freeze sim:/toplevel/I 011 0
+run
+force -freeze sim:/toplevel/I 100 0
+run
+# End time: 13:08:25 on Feb 24,2020, Elapsed time: 0:03:48
+# Errors: 0, Warnings: 8
