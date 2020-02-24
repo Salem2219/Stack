@@ -21,6 +21,10 @@ The program has outputs :
 - empty(single bit) : The output of the function empty() when I = "001".
 - top (8 bits) : The output of the function top() when I ="100".
 
+
+
+
+
 - To install :
 These examples use ModelSim® and Quartus® Prime from Intel FPGA, GIT, Visual Studio Code, make sure they are installed locally on your computer before proceeding.
 
