@@ -25,7 +25,7 @@ The program has outputs :
 
 
 
-- To install :
+To install :
 These examples use ModelSim® and Quartus® Prime from Intel FPGA, GIT, Visual Studio Code, make sure they are installed locally on your computer before proceeding.
 
 
